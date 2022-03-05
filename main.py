@@ -2,51 +2,55 @@
 # starting code is basics
 # main project code at end
 
-# num_char = len(input("What is your name: "))
-# con_str = str(num_char)
-# print("Your name has " + con_str + " characters")
+# Author: Rushikesh Dikey
+# Date: 04-03-2022
 
-# type casting example
-# a = str(123)
-# print(type(a))
+'''
+num_char = len(input("What is your name: "))
+con_str = str(num_char)
+print("Your name has " + con_str + " characters")
 
-# print and add digits
+type casting example
+a = str(123)
+print(type(a))
 
-# digit = input("Enter two numbers: ")
-# digit_one = digit[0]
-# #a = int(digit_one)
-# #print(type(a))
-#
-# digit_second = digit[1]
-# #b = int(digit_second)
-# #print(type(b))
-#
-# #add = a + b
-# add = int(digit_one) + int(digit_second)
-#
-# print(add)
+print and add digits
+
+digit = input("Enter two numbers: ")
+digit_one = digit[0]
+#a = int(digit_one)
+#print(type(a))
+
+digit_second = digit[1]
+#b = int(digit_second)
+#print(type(b))
+
+#add = a + b
+add = int(digit_one) + int(digit_second)
+
+print(add)
 
 
-# BMI Calculator
+BMI Calculator
 
-# print("Welcome to BMI calculator")
-# height = float(input("Enter your height in m: "))
-# weight = float(input("Enter your weight in Kgs: "))
-#
-# # h = float(height)
-# # w = float(weight)
-#
-# bmi = int(weight / height ** 2)
-#
-# print("Your BMI is: " + str(bmi))
-#
-# if bmi > 25:
-#     print("You are Obese")
-# elif bmi < 25 > 15:
-#     print("You are Ideal")
-# else:
-#     print("You are Underweight")
-#
+print("Welcome to BMI calculator")
+height = float(input("Enter your height in m: "))
+weight = float(input("Enter your weight in Kgs: "))
+
+# h = float(height)
+# w = float(weight)
+
+bmi = int(weight / height ** 2)
+
+print("Your BMI is: " + str(bmi))
+
+if bmi > 25:
+    print("You are Obese")
+elif bmi < 25 > 15:
+    print("You are Ideal")
+else:
+    print("You are Underweight")
+'''
 
 # TIP calculator
 print("Welcome to TIP calculator")
@@ -59,6 +63,3 @@ payment = (bill_amount * percentage_of_tip) / 100
 pay = round(payment / members, 2) + split
 
 print(f"Each person should pay: ${pay}")
-
-
-
